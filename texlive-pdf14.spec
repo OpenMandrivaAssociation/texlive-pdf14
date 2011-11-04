@@ -1,3 +1,9 @@
+# revision 17583
+# category Package
+# catalog-ctan /macros/latex/contrib/pdf14
+# catalog-date 2010-03-31 12:36:09 +0200
+# catalog-license lppl1.3
+# catalog-version 0.1
 Name:		texlive-pdf14
 Version:	0.1
 Release:	1
@@ -49,6 +55,7 @@ compatibility with old viewers.
 #- source
 %doc %{_texmfdistdir}/source/latex/pdf14/Makefile
 %doc %{_texmfdistdir}/source/latex/pdf14/pdf14.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ compatibility with old viewers.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
