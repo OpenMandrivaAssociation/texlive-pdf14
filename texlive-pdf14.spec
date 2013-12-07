@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-pdf14
 Version:	0.1
-Release:	4
+Release:	5
 Summary:	Restore PDF 1.4 to a TeX live 2010 format
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdf14
