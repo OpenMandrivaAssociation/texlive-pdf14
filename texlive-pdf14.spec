@@ -1,6 +1,6 @@
 Name:		texlive-pdf14
 Version:	17583
-Release:	1
+Release:	2
 Summary:	Restore PDF 1.4 to a TeX live 2010 format
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdf14
