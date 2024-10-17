@@ -3,7 +3,7 @@ Version:	17583
 Release:	2
 Summary:	Restore PDF 1.4 to a TeX live 2010 format
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdf14
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pdf14
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdf14.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdf14.doc.r%{version}.tar.xz
